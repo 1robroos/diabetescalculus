@@ -8,7 +8,7 @@
                 <item id="gfK6qqPE" caption="gfK6qqPE" inputtype="output" contenttype="grouplayout">
                     <itemdefinitions>backgroundcolor=#ff0000;buttonradius=0;captiontextcolor=#1553b2;elementcolor=#000000;valuetextcolor=#000000;bordercolor=transparent;columnspacing=6;separatorcolor=transparent</itemdefinitions>
                 </item>
-                <item caption="Glucose Level  (mmol/l)" inputtype="input" contenttype="double" address="Onderhoud!D48" id="SGxpPmF6">
+                <item caption="Glucose Level (mmol/l)" inputtype="input" contenttype="double" address="Onderhoud!D48" id="SGxpPmF6">
                     <itemdefinitions>usecellformat=true;minvalue=1;maxvalue=50;buttonheight=15%;deltastep=0.5;groupname=gfK6qqPE;backgroundcolor=#bdc5cad7;buttonradius=6;captiontextcolor=#1553b2;elementcolor=#1553b2;valuetextcolor=#1553b2</itemdefinitions>
                 </item>
                 <item caption="Blood Correction (/2.5)" inputtype="output" contenttype="result" address="Onderhoud!D49" id="TtpfyF6s">
@@ -32,23 +32,26 @@
     <page pageid="2" caption="Lunch" definitions="summarywidth=110;summaryopacity=6;summarybackgroundcolor=#AC190D">
         <excelcontent id="1">
             <items>
-                <item caption="Current Glucose Level  ( mmol/l )" inputtype="input" contenttype="slider" address="Onderhoud!G48" id="n07Ajc3j">
-                    <itemdefinitions>usecellformat=true;minvalue=1;maxvalue=50;backgroundcolor=#bdc5cad7;buttonradius=6;captiontextcolor=#1553b2;elementcolor=#1553b2;valuetextcolor=#1553b2</itemdefinitions>
-                </item>
-                <item caption="Insuline Base Correction (/5)" inputtype="output" contenttype="result" address="Onderhoud!G49" id="tB2yIIFu">
-                    <itemdefinitions>nocaption=true;usecellformat=true;buttonheight=14%;backgroundcolor=#991553b2;buttonradius=8;captiontextcolor=#ffffff;elementcolor=#ffffff;valuetextcolor=#ffffff</itemdefinitions>
-                </item>
-                <item caption="Food Carbonates" inputtype="input" contenttype="slider" address="Onderhoud!G50" id="Nzq7ARZS">
-                    <itemdefinitions>usecellformat=true;minvalue=0;maxvalue=300;backgroundcolor=#bdc5cad7;buttonradius=6;captiontextcolor=#1553b2;elementcolor=#1553b2;valuetextcolor=#1553b2</itemdefinitions>
-                </item>
-                <item id="DU0K9J4o" caption="DU0K9J4o" inputtype="output" contenttype="grouplayout">
+                <item id="gfK6qqPF" caption="gfK6qqPF" inputtype="output" contenttype="grouplayout">
                     <itemdefinitions>backgroundcolor=#ff0000;buttonradius=0;captiontextcolor=#1553b2;elementcolor=#000000;valuetextcolor=#000000;bordercolor=transparent;columnspacing=6;separatorcolor=transparent</itemdefinitions>
                 </item>
-                <item caption="Insuline Correction Food (/10)" inputtype="output" contenttype="result" address="Onderhoud!G51" id="mAGhIunJ">
-                    <itemdefinitions>nocaption=true;usecellformat=true;groupname=DU0K9J4o;backgroundcolor=#991553b2;buttonradius=8;captiontextcolor=#ffffff;elementcolor=#ffffff;valuetextcolor=#ffffff</itemdefinitions>
+                <item caption="Glucose Level (mmol/l)" inputtype="input" contenttype="double" address="Onderhoud!G48" id="n07Ajc3j">
+                    <itemdefinitions>usecellformat=true;minvalue=1;maxvalue=50;groupname=gfK6qqPF;backgroundcolor=#bdc5cad7;buttonradius=6;captiontextcolor=#1553b2;elementcolor=#1553b2;valuetextcolor=#1553b2</itemdefinitions>
+                </item>
+                <item caption="Blood Correction (/5)" inputtype="output" contenttype="result" address="Onderhoud!G49" id="tB2yIIFu">
+                    <itemdefinitions>nocaption=true;usecellformat=true;buttonheight=14%;groupname=gfK6qqPF;backgroundcolor=#991553b2;buttonradius=8;captiontextcolor=#ffffff;elementcolor=#ffffff;valuetextcolor=#ffffff</itemdefinitions>
+                </item>
+                <item id="BxKZfJyF" caption="BxKZfJyF" inputtype="output" contenttype="grouplayout">
+                    <itemdefinitions>backgroundcolor=#ff0000;buttonradius=0;captiontextcolor=#1553b2;elementcolor=#000000;valuetextcolor=#000000;bordercolor=transparent;columnspacing=6;separatorcolor=transparent</itemdefinitions>
+                </item>
+                <item caption="Food Carbonates" inputtype="input" contenttype="double" address="Onderhoud!G50" id="Nzq7ARZS">
+                    <itemdefinitions>usecellformat=true;minvalue=0;maxvalue=300;groupname=BxKZfJyF;backgroundcolor=#bdc5cad7;buttonradius=6;captiontextcolor=#1553b2;elementcolor=#1553b2;valuetextcolor=#1553b2</itemdefinitions>
+                </item>
+                <item caption="Food Correction (/10)" inputtype="output" contenttype="result" address="Onderhoud!G51" id="mAGhIunJ">
+                    <itemdefinitions>nocaption=true;usecellformat=true;groupname=BxKZfJyF;backgroundcolor=#991553b2;buttonradius=8;captiontextcolor=#ffffff;elementcolor=#ffffff;valuetextcolor=#ffffff</itemdefinitions>
                 </item>
                 <item caption="Total Insuline units" inputtype="output" contenttype="result" address="Onderhoud!G52" id="Kxs4Bb8I">
-                    <itemdefinitions>nocaption=true;usecellformat=true;groupname=DU0K9J4o;backgroundcolor=#991553b2;buttonradius=8;captiontextcolor=#ffffff;elementcolor=#ffffff;valuetextcolor=#ffffff</itemdefinitions>
+                    <itemdefinitions>nocaption=true;usecellformat=true;backgroundcolor=#991553b2;buttonradius=8;captiontextcolor=#f2e97e;elementcolor=#ffffff;valuetextcolor=#f2e97e;valuefontstyle=regular;metrictextcolor=#f2e97e</itemdefinitions>
                 </item>
             </items>
         </excelcontent>
@@ -56,23 +59,26 @@
     <page pageid="3" caption="Diner" definitions="summarywidth=110;summaryopacity=6;summarybackgroundcolor=#AC190D">
         <excelcontent id="1">
             <items>
-                <item caption="Current Glucose Level  ( mmol/l )" inputtype="input" contenttype="slider" address="Onderhoud!J48" id="kqjgS5O0">
-                    <itemdefinitions>usecellformat=false;minvalue=1;maxvalue=50;numberformat=N1;buttonheight=20%;backgroundcolor=#bdc5cad7;buttonradius=6;captiontextcolor=#1553b2;elementcolor=#1553b2;valuetextcolor=#1553b2</itemdefinitions>
-                </item>
-                <item caption="Insuline Base Correction (/2.5)" inputtype="output" contenttype="result" address="Onderhoud!J49" id="Xxk057lq">
-                    <itemdefinitions>nocaption=true;usecellformat=true;buttonheight=14%;backgroundcolor=#991553b2;buttonradius=8;captiontextcolor=#ffffff;elementcolor=#ffffff;valuetextcolor=#ffffff</itemdefinitions>
-                </item>
-                <item caption="Food Carbonates" inputtype="input" contenttype="slider" address="Onderhoud!J50" id="aKKEGUxv">
-                    <itemdefinitions>usecellformat=true;minvalue=0;maxvalue=300;buttonheight=1;backgroundcolor=#bdc5cad7;buttonradius=6;captiontextcolor=#1553b2;elementcolor=#1553b2;valuetextcolor=#1553b2</itemdefinitions>
-                </item>
-                <item id="LZ6cOxPr" caption="LZ6cOxPr" inputtype="output" contenttype="grouplayout">
+                <item id="gfK6qqPG" caption="gfK6qqPG" inputtype="output" contenttype="grouplayout">
                     <itemdefinitions>backgroundcolor=#ff0000;buttonradius=0;captiontextcolor=#1553b2;elementcolor=#000000;valuetextcolor=#000000;bordercolor=transparent;columnspacing=6;separatorcolor=transparent</itemdefinitions>
                 </item>
-                <item caption="Insuline Correction Food (/7)" inputtype="output" contenttype="result" address="Onderhoud!J51" id="arULMEPM">
-                    <itemdefinitions>nocaption=true;usecellformat=true;groupname=LZ6cOxPr;backgroundcolor=#991553b2;buttonradius=8;captiontextcolor=#ffffff;elementcolor=#ffffff;valuetextcolor=#ffffff</itemdefinitions>
+                <item caption="Glucose Level (mmol/l)" inputtype="input" contenttype="double" address="Onderhoud!J48" id="kqjgS5O0">
+                    <itemdefinitions>usecellformat=false;minvalue=1;groupname=gfK6qqPG;maxvalue=50;numberformat=N1;buttonheight=20%;backgroundcolor=#bdc5cad7;buttonradius=6;captiontextcolor=#1553b2;elementcolor=#1553b2;valuetextcolor=#1553b2</itemdefinitions>
+                </item>
+                <item caption="Blood Correction (/2.5)" inputtype="output" contenttype="result" address="Onderhoud!J49" id="Xxk057lq">
+                    <itemdefinitions>nocaption=true;usecellformat=true;groupname=gfK6qqPG;buttonheight=14%;backgroundcolor=#991553b2;buttonradius=8;captiontextcolor=#ffffff;elementcolor=#ffffff;valuetextcolor=#ffffff</itemdefinitions>
+                </item>
+                <item id="gfK6qqPH" caption="gfK6qqPH" inputtype="output" contenttype="grouplayout">
+                    <itemdefinitions>backgroundcolor=#ff0000;buttonradius=0;captiontextcolor=#1553b2;elementcolor=#000000;valuetextcolor=#000000;bordercolor=transparent;columnspacing=6;separatorcolor=transparent</itemdefinitions>
+                </item>
+                <item caption="Food Carbonates" inputtype="input" contenttype="double" address="Onderhoud!J50" id="aKKEGUxv">
+                    <itemdefinitions>usecellformat=true;minvalue=0;groupname=gfK6qqPH;maxvalue=300;buttonheight=1;backgroundcolor=#bdc5cad7;buttonradius=6;captiontextcolor=#1553b2;elementcolor=#1553b2;valuetextcolor=#1553b2</itemdefinitions>
+                </item>
+                <item caption="Food Correction (/7)" inputtype="output" contenttype="result" address="Onderhoud!J51" id="arULMEPM">
+                    <itemdefinitions>nocaption=true;usecellformat=true;groupname=gfK6qqPH;backgroundcolor=#991553b2;buttonradius=8;captiontextcolor=#ffffff;elementcolor=#ffffff;valuetextcolor=#ffffff</itemdefinitions>
                 </item>
                 <item caption="Total Insuline units" inputtype="output" contenttype="result" address="Onderhoud!J52" id="AmHMBseV">
-                    <itemdefinitions>nocaption=true;usecellformat=true;groupname=LZ6cOxPr;buttonheight=10%;backgroundcolor=#991553b2;buttonradius=8;captiontextcolor=#ffffff;elementcolor=#ffffff;valuetextcolor=#ffffff</itemdefinitions>
+                    <itemdefinitions>nocaption=true;usecellformat=true;backgroundcolor=#991553b2;buttonradius=8;captiontextcolor=#f2e97e;elementcolor=#ffffff;valuetextcolor=#f2e97e;valuefontstyle=regular;metrictextcolor=#f2e97e</itemdefinitions>
                 </item>
             </items>
         </excelcontent>
